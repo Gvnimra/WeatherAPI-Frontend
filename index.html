@@ -3,11 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  
-  <title>Weather App</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>Weatherfy - Consulta de Clima</title>
 </head>
 <body>
+
+<!-- CABEÇALHO DO SITE -->
+
+<header class="site-header">
+  <div class="container">
+    <h1 class="title">Weatherfy</h1>
+    <p class="subtitle">
+      Consulte o clima de qualquer cidade de forma simples.
+    </p>
+  </div>
+</header>
+
+<!-- ÁREA DE BUSCA  -->
+ <section class="search-section">
+  <div class="container">
+    <!-- Formulário de Busca -->
+     <form id="search-form" class="search-form" autocomplete="off">
+      <input 
+        id="city-input"
+        type="search"
+        name="city"
+        placeholder="Digite o nome da cidade (Ex: São Paulo)"
+        required
+      >
+      <button type="submit">Buscar</button>
+     </form>
+
+     <!-- Mensagem de Carregamento -->
+      <p id="loading" class="loading hidden">Carregando...</p>
+     <!-- Mensagem de Erro -->
+      <p id="error" class="error hidden"></p> 
+  </div>
+ </section>
+ <!-- CARTÃO DE RESULTADO DO CLIMA (Exibido somente após buscar e receber dados)-->
+  <section id="weather-result" class="weather-result hidden">
+    <div class="container">
+      <!-- Cabeçalho com nome da cidade e hora local -->
+       <div class="weather-header">
+        <h2 id="location-name"></h2>
+        <small id="local-time" class="muted"></small>
+       </div>
+      <!-- Bloco principal: ícone + temperatura -->
+       <div class="weather-main">
+        <div id="weather-icon" class="weather-icon"></div>
+
+        <div class="temperature">
+          <span id="temperature"></span>
+          <span class="unit">°C</span>
+        </div>
+       </div>
+      <!-- Descrição textual -->
+       <p class="description" class="description"></p>
+
+      <!-- Lista com informações adicionais -->
+       <ul class="details-list">
+        <li>Humidade: <span id="humidity"></span>%</li>
+        <li>Vento: <span id="wind"></span>>m/s</li>
+        <li>Pressão: <span id="pressure"></span>hPA</li>
+       </ul>
+
+    </div> 
+</section>
+<!-- RODAPÉ DO SITE -->
+ <footer class="site-footer">
+  <div class="container">
+    <small>Projeto criado para estudos - Consumo de API em JavaScript</small>
+     <small>© 2025 — Desenvolvido por
+       <a href="https://github.com/Gvnimra" target="_blank" class="author-link">Giovani de Moura André</a>
+    </small>
+  </div>
+ </footer>
+
+
   
+<script src="./assets/js/index.js"></script>
 </body>
 </html>
