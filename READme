@@ -28,9 +28,12 @@ Ele foi feito utilizando HTML, CSS e JavaScript puro (vanilla JS) — ideal para
 ```
 WeatherAPI-Frontend
 │── index.html
-│── style.css
-│── script.js
-└── README.md
+│── README.md
+└── assets
+    ├── css
+    │   └── styles.css
+    └── js
+        └── index.js
 ```
 
 ## ▶️ Como executar:
@@ -109,9 +112,12 @@ It was built using **HTML, CSS, and vanilla JavaScript**, ideal for practicing A
 ```
 WeatherAPI-Frontend
 │── index.html
-│── style.css
-│── script.js
-└── README.md
+│── README.md
+└── assets
+    ├── css
+    │   └── styles.css
+    └── js
+        └── index.js
 ```
 
 ## ▶️ How to Run:
