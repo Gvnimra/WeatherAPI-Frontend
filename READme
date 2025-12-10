@@ -1,0 +1,159 @@
+# 🌦️ WeatherAPI Frontend
+
+Este é um projeto frontend simples e direto ao ponto, desenvolvido para consumir dados de clima da WeatherAPI e exibir as informações de forma clara para o usuário.
+Ele foi feito utilizando HTML, CSS e JavaScript puro (vanilla JS) — ideal para treinar chamadas de API, manipulação do DOM e integração com dados externos.
+
+## 🚀 Funcionalidades:
+
+* Busca por cidade informada pelo usuário
+* Chamada à API para obter:
+* Temperatura atual
+* Condição climática
+* Ícone da condição
+* Umidade
+* Velocidade do vento
+* Tratamento elegante para erros (ex.: cidade não encontrada)
+* Interface simples, responsiva e objetiva
+
+## 🛠️ Tecnologias Utilizadas:
+
+* HTML5
+* CSS3
+* JavaScript
+* Fetch API
+* WeatherAPI (dados de clima em tempo real)
+
+
+## 📁 Estrutura do Projeto:
+```
+WeatherAPI-Frontend
+│── index.html
+│── style.css
+│── script.js
+└── README.md
+```
+
+## ▶️ Como executar:
+
+1. Baixe ou clone o repositório:
+
+```bash
+git clone https://github.com/Gvnimra/WeatherAPI-Frontend
+
+```
+2. Abra o arquivo index.html no navegador
+3. Digite uma cidade no campo de busca
+4. Veja o clima aparecendo na tela!
+
+## 🔑 Configurando sua API Key:
+
+1. Crie uma conta em: https://www.weatherapi.com/
+2. Copie sua API Key
+3. Abra o arquivo script.js
+4. Substitua "SUA_API_KEY_AQUI" pela sua chave
+
+## ✨ Melhorias futuras: 
+
+1. Exibir previsão dos próximos dias
+2. Dark mode
+3. Histórico de buscas 
+4. Melhorar UI/UX
+
+## 🤝 Contribuições
+
+Fique à vontade para abrir issues, enviar PRs ou sugerir novas funcionalidades.
+Este projeto é para estudo — qualquer melhoria é bem-vinda!
+
+
+---
+
+Este projeto faz parte dos meus estudos de **front-end, JavaScript e consumo de APIs**, enquanto busco aprimorar minhas habilidades em desenvolvimento web.  
+Meu objetivo é construir projetos práticos, bem documentados e funcionais, aplicando conceitos que estou aprendendo na prática.  
+
+Estou sempre aberto a feedbacks, sugestões de melhorias e contribuições!  
+
+Desenvolvido por **Giovani de Moura André** 🚀  
+[Meu GitHub](https://github.com/Gvnimra) | [LinkedIn](https://www.linkedin.com/in/gvnimra)
+
+
+---
+English version: 
+
+# 🌦️ WeatherAPI Frontend
+
+This is a simple and straightforward frontend project developed to consume weather data from WeatherAPI and display the information clearly to the user.  
+It was built using **HTML, CSS, and vanilla JavaScript**, ideal for practicing API calls, DOM manipulation, and integrating external data.
+
+## 🚀 Features:
+
+* Search for any city entered by the user
+* API call to retrieve:
+* Current temperature
+* Weather condition
+* Weather icon
+* Humidity
+* Wind speed
+* Graceful error handling (e.g., city not found)
+* Simple, responsive, and clean interface
+
+## 🛠️ Technologies Used:
+
+* HTML5  
+* CSS3  
+* JavaScript  
+* Fetch API  
+* WeatherAPI (real-time weather data)
+
+## 📁 Project Structure:
+
+```
+WeatherAPI-Frontend
+│── index.html
+│── style.css
+│── script.js
+└── README.md
+```
+
+## ▶️ How to Run:
+
+1. Download or clone the repository:
+
+```bash
+git clone https://github.com/Gvnimra/WeatherAPI-Frontend
+
+```
+
+2. Open index.html in your browser
+3. Type a city in the search field
+4. See the weather displayed on the screen!
+
+## 🔑 Configuring Your API Key:
+
+1. Create an account at: https://www.weatherapi.com/
+2. Copy your API Key
+3. Open the file script.js
+4. Replace "YOUR_API_KEY_HERE" with your key
+
+## ✨ Future Improvements: 
+
+1. Display weather forecast for the next days
+2. Dark mode
+3. Search history 
+4. Improve UI/UX
+
+## 🤝 Contributions:
+
+Feel free to open issues, submit PRs, or suggest new features.
+This project is for study purposes — any improvements are welcome!
+
+
+---
+
+This project is part of my studies in front-end, JavaScript, and API consumption, as I work to improve my web development skills.
+My goal is to build practical, well-documented, and functional projects, applying concepts I’m learning in practice.
+
+I’m always open to feedback, suggestions, and contributions! 
+
+Developed by **Giovani de Moura André** 🚀  
+[My GitHub](https://github.com/Gvnimra) | [LinkedIn](https://www.linkedin.com/in/gvnimra)
+
