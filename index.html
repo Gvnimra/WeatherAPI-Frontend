@@ -38,15 +38,17 @@
       <p id="loading" class="loading hidden">Carregando...</p>
      <!-- Mensagem de Erro -->
       <p id="error" class="error hidden"></p> 
+      
   </div>
  </section>
+
  <!-- CARTÃO DE RESULTADO DO CLIMA (Exibido somente após buscar e receber dados)-->
   <section id="weather-result" class="weather-result hidden">
     <div class="container">
       <!-- Cabeçalho com nome da cidade e hora local -->
        <div class="weather-header">
         <h2 id="location-name"></h2>
-        <small id="local-time" class="muted"></small>
+        <p id="local-time" class="muted"></p>
        </div>
       <!-- Bloco principal: ícone + temperatura -->
        <div class="weather-main">
@@ -58,17 +60,18 @@
         </div>
        </div>
       <!-- Descrição textual -->
-       <p class="description" class="description"></p>
+       <p id="description" class="description"></p>
 
       <!-- Lista com informações adicionais -->
        <ul class="details-list">
         <li>Humidade: <span id="humidity"></span>%</li>
-        <li>Vento: <span id="wind"></span>>m/s</li>
+        <li>Vento: <span id="wind"></span>m/s</li>
         <li>Pressão: <span id="pressure"></span>hPA</li>
        </ul>
 
     </div> 
 </section>
+
 <!-- RODAPÉ DO SITE -->
  <footer class="site-footer">
   <div class="container">
@@ -79,8 +82,6 @@
   </div>
  </footer>
 
-
-  
-<script src="./assets/js/index.js"></script>
+<script src="./assets/js/index.js" type="module"></script>
 </body>
 </html>
