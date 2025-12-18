@@ -74,7 +74,7 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.2 ease;
+  transition: background 0.2s ease;
 }
 
 .search-form button:hover{
@@ -211,10 +211,23 @@ body {
   color: #333;
   text-decoration: none;
   font-weight: 400;
-  transition: color 0.3 ease;
+  transition: color 0.3s ease;
 }
 
 .author-link:hover{
   color: #0077ff;
   text-decoration: underline;
+}
+
+
+/* Responsividade básica no layout*/
+
+@media (max-width: 600px) {
+  .search-form {
+    flex-direction: column;
+  }
+
+  .search-form input {
+    width: 100%;
+  }
 }
